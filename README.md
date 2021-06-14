@@ -20,10 +20,12 @@ Develop a simple system that holds contact information with multiple address and
 
 **Step 2:** Clone / download the sample application / template on your server.
 
-Step 3: Open 'index.php' inside your application directory & update the file to locate the sPHP framework 'engine.php'.
+**Step 3:** Open 'index.php' inside your application directory & update the file to locate the sPHP framework 'engine.php'.
 
-Step 4: Create a database & configure the settings under 'system/configuration' file.
+**Step 4:** Create a database & configure the settings under 'system/configuration' file.
 
-Step 5: Run the defaul sphp sql on your created database.
+**Step 5:** Run the defaul sphp sql on your created database.
 
-Step 6: Run the application on your browser.
+**Step 6:** Run the contact sql on your database.
+
+**Step 7:** Run the application on your browser.

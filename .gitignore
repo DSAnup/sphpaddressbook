@@ -1,1 +1,11 @@
 
+#ignore session folder
+
+session/
+log/
+
+.log
+
+#ignore all logs
+
+*.log

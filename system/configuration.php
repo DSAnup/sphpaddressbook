@@ -66,7 +66,7 @@
 		"DatabaseUserAuthentication"	=>	false,
 
 		"DatabaseTable"					=>	[ // Defaine database tables for automatic preset operations
-												
+												"" . ($Entity = "Person") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "ab_"),
 											],
 
 
