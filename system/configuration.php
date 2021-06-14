@@ -67,6 +67,8 @@
 
 		"DatabaseTable"					=>	[ // Defaine database tables for automatic preset operations
 												"" . ($Entity = "Person") . "" => new Database\Table("{$Entity}", null, null, null, null, null, "ab_"),
+												"" . ($Entity = "Person") . "Phone" => new Database\Table("{$Entity} phone", null, null, null, null, null, "ab_"),
+												"" . ($Entity = "Person") . "Address" => new Database\Table("{$Entity} address", null, null, null, null, null, "ab_"),
 											],
 
 
