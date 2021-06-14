@@ -1,0 +1,1 @@
+{"Error":{"Code":null,"Message":"Database connection failed!"},"Time":"Tue, 08 Jun 2021 16:12:53 +0600","Procedure":{"Namespace":"sPHP","Object":"sPHP\\Database","Method":"LogError","Argument":{"SQL":null,"Parameter":{"Host":"127.0.0.1","User":"root","Name":"contact","Password":"*****"}}},"Callstack":[]}
