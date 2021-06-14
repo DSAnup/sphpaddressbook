@@ -35,3 +35,4 @@ Develop a simple system that holds contact information with multiple address and
 * To access a script you must be sign in 
 * Email : Administrator@System.Dom
 * Password : password
+* When you run a script it's generate sql file for particular entity automaticaly under database folder
