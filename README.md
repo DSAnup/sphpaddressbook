@@ -1,4 +1,4 @@
-# sphpaddressbook
+# Create An Address Book System With sPHP Framework
 
 Develop a simple system that holds contact information with multiple address and phone numbers using sPHP Framework.
 
@@ -32,7 +32,9 @@ Develop a simple system that holds contact information with multiple address and
 
 ## Note
 
-* To access a script you must be sign in 
+* To access a script you must be sign in
 * Email : Administrator@System.Dom
 * Password : password
+* Framework is Case Sensitive.
+* It's better to use CamelCase in Table Field name. You can check the format in 'contact.sql'.
 * When you run a script it's generate sql file for particular entity automaticaly under database folder
