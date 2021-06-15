@@ -37,4 +37,5 @@ Develop a simple system that holds contact information with multiple address and
 * Password : password
 * Framework is Case Sensitive.
 * It's better to use CamelCase in Table Field name. You can check the format in 'contact.sql'.
-* When you run a script it's generate sql file for particular entity automaticaly under database folder
+* When you run a script it's generate sql file for particular entity automaticaly under database folder.
+* For script icon just copy & paste a png file under image/icon directory and rename it small letter same as entity name without use entity prefix.

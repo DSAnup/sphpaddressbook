@@ -7,7 +7,7 @@ namespace sPHP;
 
 #region Entity management common configuration
 $EM = new EntityManagement($Table[$Entity = "Person"]);
-//DebugDump($Table[$Entity]->Structure());
+
 $EM->ImportField([
 	new Database\Field("{$Entity}" . ($Field = "FirstName") . "", "{$Field}"),
 	new Database\Field("{$Entity}" . ($Field = "Email") . "", "{$Field}"),
@@ -39,6 +39,7 @@ $EM->DefaultFromSearchColumn("xTerminalID, xCustomerID, xCarrierID");
 $EM->ListColumn([
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "FirstName") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "LastName") . "", "{$Caption}", null),
+	new HTML\UI\Datagrid\Column("" . ($Caption = "Gender") . "Name", "{$Caption}", null, null),
 	new HTML\UI\Datagrid\Column("{$Entity}" . ($Caption = "Email") . "", "{$Caption}", null),
 	new HTML\UI\Datagrid\Column("{$Entity}Is" . ($Caption = "Active") . "", "{$Caption}", FIELD_TYPE_BOOLEANICON),
 ]);
@@ -108,6 +109,7 @@ if(isset($_POST["btnInput"])){
 	$EM->InputUIHTML([
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "FirstName") . "", $EM->InputWidth(), null, true), "{$Caption}", null, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "LastName") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
+		HTML\UI\Field(HTML\UI\Select("" . ($Caption = "Gender") . "ID", $Table[$OptionEntity = "{$Caption}"]->Get("{$Table["{$OptionEntity}"]->Alias()}.{$OptionEntity}IsActive = 1", "{$OptionEntity}LookupCaption ASC"), null, "{$OptionEntity}LookupCaption", null, null, 2), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "Email") . "", $EM->InputWidth(), null, null), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\Input("{$Entity}" . ($Caption = "BirthDate") . "", $EM->InputWidth(), null, null, INPUT_TYPE_DATE), "{$Caption}", true, null, $EM->FieldCaptionWidth()),
 		HTML\UI\Field(HTML\UI\RadioGroup("{$Entity}Is" . ($Caption = "Active") . "", [new HTML\UI\Radio(1, "Yes"), new HTML\UI\Radio(0, "No")]), "{$Caption}", true, null, $EM->FieldCaptionWidth()),

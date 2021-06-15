@@ -1,6 +1,7 @@
 SELECT			{ALIAS}.*, 
 				CONCAT({ALIAS}.PersonFirstName, '') AS {ENTITY}LookupCaption, 
+				G.GenderName,
 				'' AS _Other
 
 FROM			{PREFIX}{NAME} AS {ALIAS}
-	/*LEFT JOIN		X AS Y ON Y.YID = {ALIAS}.YID*/
+	LEFT JOIN	sphp_gender AS G ON G.GenderID = {ALIAS}.GenderID
