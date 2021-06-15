@@ -45,6 +45,8 @@ $EM->ListColumn([
 ]);
 
 $EM->Action([
+	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}personaddress.png", null, $Application->URL("management/generic/personaddress", null), null, null, null, "View Address"),
+	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}personphone.png", null, $Application->URL("management/generic/personphone", null), null, null, null, "View Phone"),
 	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}edit.png", null, $Application->URL($_POST["_Script"], "btnInput"), null, null, null, "Edit"),
 	new HTML\UI\Datagrid\Action("{$Environment->IconURL()}delete.png", null, $Application->URL($_POST["_Script"], "btnDelete"), null, "return confirm('Are you sure to remove the information?');", null, "Delete"),
 ]);
