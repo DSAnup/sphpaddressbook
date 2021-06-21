@@ -100,6 +100,8 @@ if(isset($_POST["btnImport"])){
 # Bulk Delete / Delete an record
 if(isset($_POST["btnDelete"])){
 	$EM->Delete();
+	$TBL['PersonAddress']->Remove("PersonID = {$_POST["PersonID"]}");
+	$TBL['PersonPhone']->Remove("PersonID = {$_POST["PersonID"]}");
 	$Terminal->Redirect($_SERVER["HTTP_REFERER"]);
 }
 
