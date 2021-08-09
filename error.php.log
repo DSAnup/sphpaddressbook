@@ -1,2 +1,4 @@
 [14-Jun-2021 17:47:47 Asia/Dhaka] User error: Database: 42S22: Unknown column 'PersonName' in 'order clause'. Origin: E:\xampp\htdocs\sPHP\library\object\database\table.php:104 in E:\xampp\htdocs\sPHP\library\object\database.php on line 521
 [15-Jun-2021 12:03:53 Asia/Dhaka] User error: Database: 42S22: Unknown column 'PersonName' in 'order clause'. Origin: E:\xampp\htdocs\sPHP\library\object\database\table.php:104 in E:\xampp\htdocs\sPHP\library\object\database.php on line 521
+[09-Aug-2021 13:52:58 Asia/Dhaka] User error: Undefined array key "BackgroundColor" in C:\xampp\htdocs\sPHP\class.php on line 1574
+[09-Aug-2021 13:54:01 Asia/Dhaka] User error: file_put_contents(C:/xampp/htdocs/sphpaddressbook/manifest/localhost.webmanifest): Failed to open stream: No such file or directory in C:\xampp\htdocs\sPHP\class.php on line 1589

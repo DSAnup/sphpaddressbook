@@ -1,0 +1,19 @@
+.Debug {
+    display: none;
+}
+.Field {
+    width: 100%;
+}
+.Select{
+    width: 100% !important;
+    display: none;
+}
+/* .Option {
+    width: 100%;
+} */
+.Input {
+    width: 100% !important;
+}
+/* .Grid {
+    display: none;
+} */

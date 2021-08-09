@@ -31,6 +31,7 @@
 		"AdministratorName"				=>	"System Administrator",
 		"AdministratorAccessOnly"		=>	false, // Allow only Administrator users to sign in
 		"RestrictedAccessMessage"		=>	"Access has been restricted at this moment! Please contact with your service provider.", 
+		"BackgroundColor"				=>	"Yellow",
 
 		"CompanyName"					=>	"{$Name}",
 		"CompanyAddress"				=>	"Dhaka, Bangladesh.",
