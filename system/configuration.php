@@ -63,6 +63,7 @@
 		"DatabaseTablePrefix"			=>	"sphp_",
 		"DatabaseTimezone"				=>	"+06:00", // Using named timezone is unstable in some cases
 		"DatabaseStrictMode"			=>	true,
+		"DatabaseIgnoreQueryError"		=>	false, // Ignore or trigger error with Query malfunction; Error messages are always shown
 		"DatabaseLogTraffic"			=>	true,
 		"DatabaseUserAuthentication"	=>	false,
 

@@ -2,3 +2,6 @@
 [15-Jun-2021 12:03:53 Asia/Dhaka] User error: Database: 42S22: Unknown column 'PersonName' in 'order clause'. Origin: E:\xampp\htdocs\sPHP\library\object\database\table.php:104 in E:\xampp\htdocs\sPHP\library\object\database.php on line 521
 [09-Aug-2021 13:52:58 Asia/Dhaka] User error: Undefined array key "BackgroundColor" in C:\xampp\htdocs\sPHP\class.php on line 1574
 [09-Aug-2021 13:54:01 Asia/Dhaka] User error: file_put_contents(C:/xampp/htdocs/sphpaddressbook/manifest/localhost.webmanifest): Failed to open stream: No such file or directory in C:\xampp\htdocs\sPHP\class.php on line 1589
+[01-Sep-2021 14:05:40 Asia/Dhaka] User error: Undefined array key "DatabaseIgnoreQueryError" in C:\xampp\htdocs\sPHP\class.php on line 1500
+[22-Sep-2021 13:05:30 Asia/Dhaka] User error: Undefined index: DatabaseIgnoreQueryError in C:\xampp\htdocs\sPHP\class.php on line 1547
+[22-Sep-2021 13:06:05 Asia/Dhaka] User error: Undefined index: DatabaseIgnoreQueryError in C:\xampp\htdocs\sPHP\class.php on line 1547
